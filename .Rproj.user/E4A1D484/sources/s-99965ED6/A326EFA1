@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557936981266.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1106605881",
+    "id" : "A326EFA1",
+    "lastKnownWriteTime" : 1557952546,
+    "last_content_update" : 1557952546326,
+    "path" : "~/Documents/RStudio Projects/Curso-Data/Main.R",
+    "project_path" : "Main.R",
+    "properties" : {
+        "cursorPosition" : "111,43",
+        "scrollLine" : "95",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
