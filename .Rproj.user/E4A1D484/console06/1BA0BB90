@@ -1,336 +1,0 @@
-]0;~/Documents/RStudio Projects/Curso-Data[?1034hBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git init
-Initialized empty Git repository in /Users/bautistabaiocchi-lora/Documents/RStudio Projects/Curso-Data/.git/
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git status
-On branch master
-
-Initial commit
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rproj.user/[m
-	[31m.gitignore[m
-	[31mCurso-Data.Rproj[m
-	[31mMain.R[m
-	[31mName.Generator.R[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git remote add origin https://github.com/Ba utista-Baiocchi-lora/Student-Data-Anonymizer.git
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git push -u origin master
-error: src refspec master does not match any.
-error: failed to push some refs to 'https://github.com/Bautista-Baiocchi-lora/Student-Data-Anonymizer.git'
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git add README.md
-fatal: pathspec 'README.md' did not match any files
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git commit -m "first commit"
-On branch master
-
-Initial commit
-
-Untracked files:
-	[31m.Rproj.user/[m
-	[31m.gitignore[m
-	[31mCurso-Data.Rproj[m
-	[31mMain.R[m
-	[31mName.Generator.R[m
-
-nothing added to commit but untracked files present
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git remote add origin https://github.com/Ba utista-Baiocchi-lora/Student-Data-Anonymizer.git
-fatal: remote origin already exists.
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git push -u origin master
-error: src refspec master does not match any.
-error: failed to push some refs to 'https://github.com/Bautista-Baiocchi-lora/Student-Data-Anonymizer.git'
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git status
-On branch master
-
-Initial commit
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rproj.user/[m
-	[31m.gitignore[m
-	[31mCurso-Data.Rproj[m
-	[31mMain.R[m
-	[31mName.Generator.R[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git add .
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git commit -m "first wo[K[Kcommit, working"
-[master (root-commit) d016766] first commit, working
- 44 files changed, 1189 insertions(+)
- create mode 100644 .Rproj.user/E4A1D484/console06/1BA0BB90
- create mode 100644 .Rproj.user/E4A1D484/console06/1BA0BB90.env
- create mode 100644 .Rproj.user/E4A1D484/console06/INDEX001
- create mode 100644 .Rproj.user/E4A1D484/sources/prop/1E343A85
- create mode 100644 .Rproj.user/E4A1D484/sources/prop/2D6FF05C
- create mode 100644 .Rproj.user/E4A1D484/sources/prop/61546860
- create mode 100644 .Rproj.user/E4A1D484/sources/prop/8980C296
- create mode 100644 .Rproj.user/E4A1D484/sources/prop/9D1DF1FD
- create mode 100644 .Rproj.user/E4A1D484/sources/prop/A13D9D93
- create mode 100644 .Rproj.user/E4A1D484/sources/prop/INDEX
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/3E58F885-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/44AB12C3-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/470A00EB-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/4E0354A8
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/4E0354A8-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/4FBFCB5B-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/504CBEE7-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/57A5B880-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/61E83AAD
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/61E83AAD-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/79CF748B-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/883D1FD3
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/883D1FD3-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/99749D20-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/A326EFA1
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/A326EFA1-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/ADF45D1
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/ADF45D1-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/D191DE48
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/D191DE48-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/D58E5025-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/D9F9C0FE-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/E9EF903C-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/EEC62E3D
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/EEC62E3D-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents
- create mode 100644 .Rproj.user/E4A1D484/sources/s-99965ED6/lock_file
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 .gitignore
- create mode 100644 Curso-Data.Rproj
- create mode 100644 Main.R
- create mode 100644 Name.Generator.R
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-	[31mmodified:   .gitignore[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git r[K[K[K[K[Kgt[Kit reset ~[K[K HEAD~
-fatal: ambiguous argument 'HEAD~': unknown revision or path not in the working tree.
-Use '--' to separate paths from revisions, like this:
-'git <command> [<revision>...] -- [<file>...]'
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git statuas
-git: 'statuas' is not a git command. See 'git --help'.
-
-The most similar command is
-	status
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-	[31mmodified:   .gitignore[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git add .gitir[Kgnore
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git ast[K[K[Kstatus
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   .gitignore[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ !!
-git status
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   .gitignore[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-	[31mmodified:   .gitignore[m
-
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git status
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   .gitignore[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-	[31mmodified:   .gitignore[m
-
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git status
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   .gitignore[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-	[31mmodified:   .gitignore[m
-
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git add git[K[K[K.gitignore
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git sats[K[K[Ktatus
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   .gitignore[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git push origin m[K[K[K[K[K[K[K[K[K[K[K[K[Kcommit -m "add gitignore"
-[master e375cf4] add gitignore
- 1 file changed, 6 insertions(+), 1 deletion(-)
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git push origin master
-Counting objects: 38, done.
-Delta compression using up to 4 threads.
-Compressing objects:   2% (1/35)   Compressing objects:   5% (2/35)   Compressing objects:   8% (3/35)   Compressing objects:  11% (4/35)   Compressing objects:  14% (5/35)   Compressing objects:  17% (6/35)   Compressing objects:  20% (7/35)   Compressing objects:  22% (8/35)   Compressing objects:  25% (9/35)   Compressing objects:  28% (10/35)   Compressing objects:  31% (11/35)   Compressing objects:  34% (12/35)   Compressing objects:  37% (13/35)   Compressing objects:  40% (14/35)   Compressing objects:  42% (15/35)   Compressing objects:  45% (16/35)   Compressing objects:  48% (17/35)   Compressing objects:  51% (18/35)   Compressing objects:  54% (19/35)   Compressing objects:  57% (20/35)   Compressing objects:  60% (21/35)   Compressing objects:  62% (22/35)   Compressing objects:  65% (23/35)   Compressing objects:  68% (24/35)   Compressing objects:  71% (25/35)   Compressing objects:  74% (26/35)   Compressing objects:  77% (27/35)   Compressing objects:  80% (28/35)   Compressing objects:  82% (29/35)   Compressing objects:  85% (30/35)   Compressing objects:  88% (31/35)   Compressing objects:  91% (32/35)   Compressing objects:  94% (33/35)   Compressing objects:  97% (34/35)   Compressing objects: 100% (35/35)   Compressing objects: 100% (35/35), done.
-Writing objects:   2% (1/38)   Writing objects:   5% (2/38)   Writing objects:   7% (3/38)   Writing objects:  10% (4/38)   Writing objects:  13% (5/38)   Writing objects:  15% (6/38)   Writing objects:  18% (7/38)   Writing objects:  21% (8/38)   Writing objects:  23% (9/38)   Writing objects:  26% (10/38)   Writing objects:  28% (11/38)   Writing objects:  31% (12/38)   Writing objects:  34% (13/38)   Writing objects:  36% (14/38)   Writing objects:  39% (15/38)   Writing objects:  42% (16/38)   Writing objects:  44% (17/38)   Writing objects:  47% (18/38)   Writing objects:  50% (19/38)   Writing objects:  55% (21/38)   Writing objects:  57% (22/38)   Writing objects:  65% (25/38)   Writing objects:  68% (26/38)   Writing objects:  71% (27/38)   Writing objects:  73% (28/38)   Writing objects:  76% (29/38)   Writing objects:  78% (30/38)   Writing objects:  81% (31/38)   Writing objects:  84% (32/38)   Writing objects:  86% (33/38)   Writing objects:  89% (34/38)   Writing objects:  92% (35/38)   Writing objects:  94% (36/38)   Writing objects:  97% (37/38)   Writing objects: 100% (38/38)   Writing objects: 100% (38/38), 18.67 KiB | 0 bytes/s, done.
-Total 38 (delta 9), reused 0 (delta 0)
-remote: Resolving deltas:  11% (1/9)   [Kremote: Resolving deltas:  22% (2/9)   [Kremote: Resolving deltas:  33% (3/9)   [Kremote: Resolving deltas:  66% (6/9)   [Kremote: Resolving deltas: 100% (9/9)   [Kremote: Resolving deltas: 100% (9/9), done.[K
-To https://github.com/Bautista-Baiocchi-lora/Student-Data-Anonymizer.git
- * [new branch]      master -> master
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git rm -r c[K--cached
-usage: git rm [<options>] [--] <file>...
-
-    -n, --dry-run         dry run
-    -q, --quiet           do not list removed files
-    --cached              only remove from the index
-    -f, --force           override the up-to-date check
-    -r                    allow recursive removal
-    --ignore-unmatch      exit with a zero status even if nothing matched
-
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git a[Kstatus
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ !!
-git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-	[31mmodified:   .gitignore[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/RStudio Projects/Curso-Data[?1034hBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git sat[K[Ktatus
-On branch master
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/E4A1D484/console06/1BA0BB90[m
-	[31mmodified:   .Rproj.user/E4A1D484/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/2D6FF05C[m
-	[31mmodified:   .Rproj.user/E4A1D484/sources/prop/9D1DF1FD[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/3E58F885-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/44AB12C3-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/470A00EB-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/4E0354A8[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/4E0354A8-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/4FBFCB5B-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/504CBEE7-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/57A5B880-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/61E83AAD[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/61E83AAD-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/79CF748B-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/883D1FD3[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/883D1FD3-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/99749D20-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/A326EFA1[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/A326EFA1-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/ADF45D1[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/ADF45D1-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/D191DE48[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/D191DE48-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/D58E5025-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/D9F9C0FE-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/E9EF903C-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/EEC62E3D[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/EEC62E3D-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/F315F311-contents[m
-	[31mdeleted:    .Rproj.user/E4A1D484/sources/s-99965ED6/lock_file[m
-	[31mmodified:   .gitignore[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Documents/RStudio Projects/Curso-DataBautistas-MacBook-Pro:Curso-Data bautistabaiocchi-lora$ git add .
