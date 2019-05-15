@@ -1,3 +1,8 @@
 /input-data/
 /original-data/
 /output-data/
+.RData
+Curso-Data-Rproj
+.Rproj.user
+.Rproj.user/
+.RHistory
