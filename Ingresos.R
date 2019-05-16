@@ -8,11 +8,12 @@ if ("xlsx" %in% rownames(installed.packages()) == FALSE) {
 library(dplyr)
 library(xlsx)
 library(RecordLinkage)
+library(stringr)
 
 format_names <- function(names) {
   names <- names %>%
     trimws() %>%
-    tolower()
+    str_to_title()
   return(gsub("  ", " ", names))
 }
 
@@ -20,16 +21,20 @@ ingresos.both <- read.csv2(file = "./input-data/INGRESO 2018-2019.csv", row.name
 
 ingresos.both <- rename(ingresos.both, Nombres = Nombre.completo)
 
-# Names to lowercase and trim leading/trailing spaces
+# Names to Title and trim leading/trailing spaces
 ingresos.both$Nombres <- format_names(ingresos.both$Nombres)
 
 ingresos.both <- ingresos.both[!duplicated(ingresos.both$Nombres), ] # delete duplicate rows based on name
 
 ingresos.2018 <- read.csv2(file = "./input-data/INGRESOS 2018.csv", row.names = c("X"))
 
-ingresos.2018 <- ingresos.2018 %>%
-  mutate(Nombres = paste(Nombres, Apellidos)) %>%
-  select(-Apellidos)
+compose_names <- function(df) {
+  df %>%
+    mutate(Nombres = paste(Nombres, Apellidos)) %>%
+    select(-Apellidos)
+}
+
+ingresos.2018 <- ingresos.2018 %>% compose_names()
 
 ingresos.2018$Nombres <- format_names(ingresos.2018$Nombres)
 
@@ -37,9 +42,7 @@ ingresos.2018 <- ingresos.2018[!duplicated(ingresos.2018$Nombres), ]
 
 ingresos.2019 <- read.csv2(file = "./input-data/INGRESO 2019.csv", row.names = c("X"))
 
-ingresos.2019 <- ingresos.2019 %>%
-  mutate(Nombres = paste(Nombres, Apellidos)) %>%
-  select(-Apellidos)
+ingresos.2019 <- ingresos.2019 %>% compose_names()
 
 ingresos.2019$Nombres <- format_names(ingresos.2019$Nombres)
 
@@ -94,7 +97,7 @@ generated.random.names <- as.vector(sapply(original.names, function(name) {
 name.master.key <- data.frame(original.names, generated.random.names)
 
 swap_name <- function(name) {
-  return(name.master.key[(name.master.key$original.names==name),2])
+  return(name.master.key[(name.master.key$original.names == name), 2])
 }
 
 ingresos.2018$Nombres <- as.vector(sapply(ingresos.2018$Nombres, swap_name))
@@ -110,3 +113,5 @@ ingresos.both$Nombres <- as.vector(sapply(ingresos.both$Nombres, swap_name))
 write.xlsx(ingresos.both, "./output-data/INGRESO 2018-2019-ANON.xlsx") # Finished anonymizing INGRESO 2018-2019, Save it
 
 write.csv2(name.master.key, "./output-data/INGRESO 2018-2019-KEY.csv", row.names = F) # Save master key as csv for future use
+
+save(name.master.key, file = './output-data/master.key.RData')
